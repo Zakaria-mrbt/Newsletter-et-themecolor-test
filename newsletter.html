@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Newsletters</title>
+</head>
+<body>
+    <header>
+        <div class="themecolors">
+        <div class="btn_themecolors_nb2">
+            <button class="btn_tc2" ></button>
+        </div>
+        <div class="btn_themecolors_nb">
+            <button class='btn_tc' ></button>
+        </div>
+    </div>
+    <nav class="navbar">
+            <div class="burger">
+                <span></span>
+            </div>
+            <img class="logo" src="img/1.png" alt="#">
+            <ul class="navlinks">
+                <li class="navelink"><a href="index.html">Service</a></li>
+                <li class="navelink"><a href="#">Project</a></li>
+                <li class="navelink"><a href="#">Product</a></li>
+                <li class="navelink"><a href="newsletter.html">Newsletters</a></li>
+                <li class="navelink"><a href="#">About</a></li>
+            </ul>
+        </nav>
+        </header>
+        <main>
+            <div class="sub_forms">
+                <h5>Stay Updated</h5>
+                <form action="newsletter.html" method="post" 
+                class="newsletter" name='formNewsletter'>
+                <img src="img/ales-nesetril-Im7lZjxeLhg-unsplash.jpg" alt="#">
+                <div class="form-field">
+                    <label for="lastname">Last name</label>
+                    <input type="text" name="lastname" id="lastname">
+                    <small></small>
+                </div>
+                <div class="form-field">
+                    <label for="firstname">Name</label>
+                    <input type="text" name="firstname" 
+                    id="firstname">
+                    <small></small>
+                </div>
+                
+                <div class="form-field">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                    <small></small>
+                </div>
+
+                <div class="form-field checkbox">
+                    <label for="agree">Condition d'utilisation <a href="#">En savoir plus</a></label>
+                    <input type="checkbox" name="checkbox_agree" id="checkbox_agree">
+                    <small></small>
+                </div>
+                
+                    <label for="button"></label>
+                    <button class="btn_sub btn" name="button">submit</button>
+                    <small></small>
+                    
+                </form>
+                <small></small>
+            </div>
+        </main>
+        <script src="app.js"></script>
+    </body>
+    </html>
